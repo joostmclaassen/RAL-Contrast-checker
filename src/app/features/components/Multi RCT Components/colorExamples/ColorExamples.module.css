@@ -1,0 +1,31 @@
+#ColorExamplesStyles {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: -1px;
+}
+
+#ColorExamplesStyles .color1 {
+	border-radius: 0px 14px 0px 0px;
+}
+
+#ColorExamplesStyles .color4 {
+	border-radius: 0px 0px 14px 0px;
+}
+
+@media screen and (max-width: 768px) {
+	.colorExamples {
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: flex;
+		width: auto;
+		height: 50%;
+	}
+	#ColorExamplesStyles .color1 {
+		border-radius: 14px 14px 0px 0px;
+	}
+	#ColorExamplesStyles .color4 {
+		border-radius: 0px 0px 0px 0px;
+	}
+}

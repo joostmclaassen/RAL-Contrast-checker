@@ -1,0 +1,75 @@
+.label {
+	font-weight: bold;
+	margin-block-start: 0;
+	margin-block-end: 0;
+}
+
+#InputFieldsStyles {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 35px;
+	width: 100%;
+	margin-top: 75px;
+}
+
+#ColorInputContainerStyles {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: left;
+	width: 100%;
+}
+
+.colorInput {
+	width: auto;
+	margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+	.colorInputContainer {
+		width: auto;
+		margin-right: auto;
+		margin-top: 350px;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.contrastEvaluation {
+		width: 90%;
+	}
+	.colorInput {
+		width: 110%;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.contrastEvaluation {
+		width: 80%;
+	}
+	.colorInput {
+		width: 120%;
+	}
+}
+
+@media screen and (max-width: 340px) {
+	.contrastEvaluation {
+		width: 80%;
+	}
+	.colorInput {
+		width: 120%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.contrastEvaluation {
+		width: 85%;
+	}
+	.colorInput {
+		width: 120%;
+	}
+
+	#InputFieldsStyles {
+		margin-left: 10px;
+	}
+}

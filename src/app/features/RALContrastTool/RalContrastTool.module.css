@@ -1,0 +1,14 @@
+#RalContrastTool {
+	display: flex;
+	height: auto;
+	min-width: 120px;
+	max-width: 1200px;
+	border: 1.5px solid #e3e3e3;
+	border-radius: 14px;
+}
+
+@media screen and (max-width: 768px) {
+	.RalContrastToolContainer {
+		position: relative;
+	}
+}

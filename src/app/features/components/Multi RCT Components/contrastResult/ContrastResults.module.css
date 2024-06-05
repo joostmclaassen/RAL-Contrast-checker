@@ -1,0 +1,51 @@
+.ContrastResultsStyles {
+	display: grid;
+	align-content: space-around;
+	grid-template-columns: auto auto auto;
+	gap: 15px;
+	margin-top: 20px;
+	height: auto;
+	min-width: 120px;
+	max-width: 1200px;
+	border: 1.5px solid #e3e3e3;
+	border-radius: 14px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+}
+
+.GridTitle {
+	grid-area: 1 / 1 / 2 / -1;
+	justify-self: center;
+}
+
+@media screen and (max-width: 768px) {
+	.ContrastResultsStyles {
+		grid-template-columns: auto auto;
+	}
+	.MultiRCTContainer {
+		position: relative;
+	}
+}
+
+@media screen and (max-width: 535px) {
+	.ContrastResultsStyles {
+		grid-template-columns: auto;
+		justify-content: center;
+	}
+	.MultiRCTContainer {
+		position: relative;
+	}
+}
+
+@media screen and (max-width: 290px) {
+	.ContrastResultsStyles {
+		grid-template-columns: auto;
+	}
+	.MultiRCTContainer {
+		position: relative;
+	}
+	.GridTitle {
+		justify-self: left;
+	}
+}

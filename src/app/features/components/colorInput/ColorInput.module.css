@@ -1,0 +1,122 @@
+.label {
+	font-weight: bold;
+}
+
+.ralInputDiv {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1.5px solid #595959;
+	border-radius: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 100%;
+	background: #fff;
+}
+
+.ralInputDivError {
+	border: 1.5px solid #d93025 !important;
+	box-shadow: none !important;
+}
+
+.ralInputDiv:hover {
+	box-shadow: inset #b1b0b5 0 0 0 1px, inset white 0 0 0 100px;
+}
+
+.ralInputDiv:focus-within {
+	border-color: #0066ff;
+	box-shadow: inset #0066ff 0 0 0 1px, inset white 0 0 0 100px;
+}
+
+.ralInputErrorMessageDiv {
+	color: #d93025;
+	display: flex;
+	align-items: flex-start;
+	font-size: 13.5px;
+	line-height: normal;
+	margin-top: 2px;
+}
+
+.ralInputErrorIcon {
+	color: #d93025;
+	margin-right: 8px;
+}
+
+.ralInputField {
+	border: none;
+	color: #000;
+	padding: 0 14px;
+	width: 100%;
+	height: 35px;
+	font-size: 16px;
+}
+
+.ralInputField:focus {
+	outline: none;
+}
+
+.ralSelectionButton {
+	background: none;
+	border: none;
+	padding: 0;
+	margin: 0;
+	cursor: pointer;
+}
+
+@media screen and (min-width: 769px) {
+	.colorDiv {
+		min-width: 340px;
+		max-height: 410px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.colorDiv {
+		min-width: 340px;
+		max-height: 410px;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.ralInputDiv {
+		width: 90%;
+	}
+
+	.colorDiv {
+		min-width: 260px;
+		max-height: 410px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.ralInputDiv {
+		width: 80%;
+	}
+
+	.colorDiv {
+		min-width: 240px;
+		max-height: 410px;
+	}
+}
+
+@media screen and (max-width: 340px) {
+	.ralInputDiv {
+		width: 80%;
+	}
+
+	.colorDiv {
+		min-width: 220px;
+		max-height: 410px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.ralInputDiv {
+		width: 80%;
+	}
+
+	.colorDiv {
+		min-width: 190px;
+		max-height: 410px;
+	}
+}

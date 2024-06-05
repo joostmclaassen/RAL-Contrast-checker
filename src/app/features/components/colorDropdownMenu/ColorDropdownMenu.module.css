@@ -1,0 +1,27 @@
+#MenuListItemStyles {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+	border: none;
+	width: 84%;
+	background-color: #f1f1f1;
+}
+
+#SubMenuListItemStyles {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+	border: none;
+	width: 90%;
+	background-color: #f1f1f1;
+}
+
+#SubMenuListItemStyles:hover {
+	background-color: #ddd;
+}
+
+#MenuListItemStyles:hover {
+	background-color: #ddd;
+}

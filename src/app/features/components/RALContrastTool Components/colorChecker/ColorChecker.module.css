@@ -1,0 +1,93 @@
+.label {
+	font-weight: bold;
+	margin-block-start: 0;
+	margin-block-end: 0;
+}
+
+#ColorCheckerStyles {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 35px;
+	width: 100%;
+	margin-top: 75px;
+}
+
+#ColorInputContainerStyles {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: left;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#ColorInputStyles {
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+	.colorChecker {
+		margin-top: 20px;
+		padding-top: 70px;
+		margin-bottom: 20px;
+		padding-bottom: 70px;
+	}
+
+	.colorInputContainer {
+		width: auto;
+		margin-right: auto;
+	}
+
+	#ColorInputStyles {
+		margin-bottom: 20px;
+	}
+
+	.colorInput {
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.contrastEvaluation {
+		width: 90%;
+	}
+
+	#ColorInputStyles {
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.contrastEvaluation {
+		width: 80%;
+	}
+
+	#ColorInputStyles {
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 340px) {
+	.contrastEvaluation {
+		width: 80%;
+	}
+
+	#ColorInputStyles {
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.contrastEvaluation {
+		width: 85%;
+	}
+
+	#ColorCheckerStyles {
+		margin-left: 10px;
+	}
+
+	#ColorInputStyles {
+		margin-bottom: 20px;
+	}
+}
