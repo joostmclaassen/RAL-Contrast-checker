@@ -22,7 +22,7 @@ function App() {
 				''
 			) : (
 				<div>
-					<h2> RAL Contrast Tool!</h2>
+					<h1> RAL Contrast Tool!</h1>
 					<RALContrastTool />
 					
 				</div>
