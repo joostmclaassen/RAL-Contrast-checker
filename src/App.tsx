@@ -24,6 +24,7 @@ function App() {
 				<div>
 					<h2> RAL Contrast Tool</h2>
 					<RALContrastTool />
+					<img src="RAL Contrast Checker Poster.jpg" aria-label="RAL Contrast Checker Poster">
 				</div>
 			)}
 
