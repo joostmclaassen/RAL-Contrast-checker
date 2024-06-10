@@ -22,9 +22,9 @@ function App() {
 				''
 			) : (
 				<div>
-					<h2> RAL Contrast Tool</h2>
+					<h2> RAL Contrast Tool!</h2>
 					<RALContrastTool />
-					<img src="RAL-Contrast-Checker.jpg" aria-label="RAL Contrast Checker Poster">
+					
 				</div>
 			)}
 
